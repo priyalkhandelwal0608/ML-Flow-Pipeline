@@ -3,39 +3,39 @@
 This repository contains an end-to-end MLOps pipeline designed to predict student placement status using a Random Forest Classifier. The system includes data preprocessing, model training with experiment tracking, and a containerized Flask web application for real-time inference.
 
 ---
-## 🚀 Features
+##  Features
 
-### 🔹 Automated Preprocessing
+###  Automated Preprocessing
 - Handles categorical encoding for features like `ExtracurricularActivities` and `PlacementTraining`.
 
-### 🔹 Machine Learning Pipeline
+###  Machine Learning Pipeline
 - Trains a `RandomForestClassifier` model.
 - Exports the trained model for production use.
 
-### 🔹 Dual Inference Modes
+###  Dual Inference Modes
 - **Web UI**  
   - Interactive form for single-student predictions.
 
 - **Batch Processing**  
   - Processes entire CSV files using `inference.py`.
 
-### 🔹 Containerized Deployment
+### Containerized Deployment
 - Ready for deployment using **Docker** and **Gunicorn**.
 ---
-## 📦 Dependencies
+##  Dependencies
 
-### 🔹 Data Processing
+###  Data Processing
 - `pandas`
 - `numpy`
 
-### 🔹 Machine Learning
+###  Machine Learning
 - `scikit-learn`
 
-### 🔹 Web Framework
+###  Web Framework
 - `flask`
 - `gunicorn`
 
-### 🔹 MLOps & Experiment Tracking
+###  MLOps & Experiment Tracking
 - `mlflow`
 - `dvc`
 ---
